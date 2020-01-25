@@ -36,5 +36,5 @@ end
 def get_english_meaning(file_path, emoticon)
   # code goes here
 
-  emote load_library(file_path)
+  emote = load_library(file_path)
 end
