@@ -40,7 +40,7 @@ def get_english_meaning(file_path, emoticon)
   emote.each do |key, value|
     value.each do |val|
 
-      if emoticon = val[0]
+      if emoticon === val[0]
         return val[1]
       end
     end
